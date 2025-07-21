@@ -1,0 +1,7 @@
+fastapi      # To build the API endpoints
+uvicorn      # To run the FastAPI server
+python-multipart # To handle file uploads in FastAPI
+PyMuPDF      # To extract text from PDF files
+python-docx # To read DOCX files
+spacy # For keyword extraction and light NLP
+
