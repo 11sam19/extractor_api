@@ -4,4 +4,5 @@ python-multipart # To handle file uploads in FastAPI
 PyMuPDF      # To extract text from PDF files
 python-docx # To read DOCX files
 spacy # For keyword extraction and light NLP
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
