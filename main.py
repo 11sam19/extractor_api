@@ -13,6 +13,11 @@ async def root():
     # Health check route
     return {"message": "Extractor API is running 🚀"}
 
+@app.get("/ping")
+async def ping():
+    return {"status": "ok"}
+
+
 @app.post("/extract/")
 async def extract_from_file(file: UploadFile = File(...)):
     try:
